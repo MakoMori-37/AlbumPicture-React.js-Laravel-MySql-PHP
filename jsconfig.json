@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"baseUrl": "resources/js",
+		"paths": {
+			"@": ["*"],
+			"@components/*": ["components/*"],
+			"@functions/*": ["functions/*"],
+			"@lib/*": ["lib/*"]
+		}
+	},
+	"include": ["resources/js/**/*"],
+	"exclude": ["node_modules", "**/node_modules/**/*"]
+}
